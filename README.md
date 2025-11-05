@@ -1,6 +1,5 @@
 # Implementing Microsoft's 'The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits'
 
-This repo implements the core idea of **1-bit LLMs** inside a LLaMA-style model using PyTorch and 🤗 Transformers.
 
 ## Overview
 - I replace every LLaMA `Linear` in **attention** and **MLP** with a custom **BitLinear** layer.
