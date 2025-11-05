@@ -18,7 +18,7 @@
 - The resulting model here is ~**225M** parameters with **BitLinear** layers.
 
 ## Results
-- I was able to quantize a 3B parameter Meta LLM to a 225M parameter LLM with minimal quality loss.
+- I was able to quantize a 8B parameter Meta LLM to a 225M parameter LLM with minimal quality loss.
 
 ## HuggingFace Deployment
 https://huggingface.co/sambhav11/bitnet-llama3.1-225M
